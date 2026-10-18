@@ -34,7 +34,7 @@ This project supports multiple LLM providers out of the box:
 3. **OpenAI**: OpenAI Chat Completions with function calling (`gpt-4o-mini`).
 4. **AWS Bedrock**: Boto3 Converse API with native tool use (`LLM_PROVIDER=bedrock`, plus `AWS_BEARER_TOKEN_BEDROCK`, IAM keys, or `AWS_PROFILE`; default `us.anthropic.claude-haiku-4-5-20251001-v1:0` / Claude Haiku 4.5). Also supported by the companion C4 ReAct agent.
 
-The assignment asks for Gemini or OpenAI; the app supports both directly (`LLM_PROVIDER=gemini` or `openai`), and the demo used OpenRouter through the official OpenAI SDK. The provider is automatically detected from the active keys in `.env`, or can be explicitly selected via `LLM_PROVIDER=gemini|openrouter|openai|bedrock`.
+The assignment asks for Gemini or OpenAI; the app supports both directly (`LLM_PROVIDER=gemini` or `openai`), the saved notebook outputs were produced with OpenAI `gpt-4o-mini`, and the video demo used OpenRouter through the official OpenAI SDK. The provider is automatically detected from the active keys in `.env`, or can be explicitly selected via `LLM_PROVIDER=gemini|openrouter|openai|bedrock`.
 
 ## Files and submission checklist
 

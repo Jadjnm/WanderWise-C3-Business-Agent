@@ -633,6 +633,9 @@ def _create_completion(client: Any, attempts: int = 3, **kwargs: Any) -> Any:
             problem = f"provider returned no choices: {getattr(response, 'error', None) or 'empty response'}"
         except Exception as exc:
             text = str(exc)
+            # Out of credits or a daily quota: retrying can't help
+            if "insufficient_quota" in text or "per-day" in text.lower():
+                raise
             if not any(code in text for code in ("429", "500", "502", "503", "504", "rate", "timeout", "Timeout")):
                 raise
             problem = text[:200]
