@@ -1,0 +1,93 @@
+WANDERWISE TRAVEL - OFFICIAL BUSINESS SUMMARY
+CLASSROOM SIMULATION: This is a fictional agency. Packages, rates
+and prices are invented for the EECE 503P/798S agent assignment; the team
+members are the real student and course staff behind the project.
+This assistant never makes real bookings or checks live availability.
+
+BUSINESS IDENTITY
+WanderWise Travel is a virtual-first boutique travel-planning studio with the
+slogan "Your dream destination, thoughtfully planned." Our mission is to make
+trip planning personal, transparent, and stress-free through curated itineraries
+and friendly human follow-up. Our clients include couples, solo explorers,
+friend groups, and first-time international travelers. Our unique advantage is
+a short travel-style conversation that matches travelers with a curated package
+or a custom planning consultation, rather than a one-size-fits-all itinerary.
+
+TEAM
+Jad Elmoghraby - Founder (jne20@mail.aub.edu). Student who built this EECE 503P/798S project.
+Prof. Ammar Mohanna - Head AI Consultant (am288@aub.edu.lb). Course instructor, EECE 503P/798S.
+Zakaria El Labban - Teaching Assistant and co-creator (zbl00@mail.aub.edu).
+Mohamad Hamdan - Teaching Assistant and co-creator (myh17@mail.aub.edu).
+Aria - AI Travel Concierge (explains offerings, answers questions, and logs customer inquiries).
+Team members are the real student and course staff behind this EECE 503P/798S project; the agency, its packages and prices are fictional and used only for this classroom demonstration.
+
+SERVICES
+1. Curated leisure packages with sample itineraries and listed inclusions.
+2. Honeymoon and couples' travel planning.
+3. Small-group and friends' vacation planning (custom inquiries, no promised dates).
+4. Tailor-made itinerary consultations for destination, budget, and travel style.
+5. Post-inquiry follow-up by the WanderWise team in a classroom demonstration.
+
+FICTIONAL PACKAGE CATALOG (USD per person; indicative, not live prices)
+Bali Bliss - 7 days / 6 nights - $1,850 per person, based on two sharing.
+Highlights: Ubud rice terraces, traditional cultural experience, beach time.
+Includes: 6 nights midrange lodging, daily breakfast, airport transfer,
+2 guided experiences, ground transfers listed in itinerary.
+
+Rome & Amalfi Escape - 6 days / 5 nights - $1,650 per person, based on two sharing.
+Highlights: Rome's historic center, coastal viewpoints, food-tasting experience.
+Includes: 5 nights midrange lodging, daily breakfast, guided Rome walk,
+shared Amalfi coast excursion, planned ground transfers.
+
+Santorini Romance - 5 days / 4 nights - $1,950 per person, based on two sharing.
+Highlights: sunset viewpoints, village walk, island leisure time.
+Includes: 4 nights boutique lodging, daily breakfast, airport transfers,
+small-group village tour, one sunset cruise (weather-dependent).
+
+Swiss Alpine Discovery - 5 days / 4 nights - $2,150 per person, based on two sharing.
+Highlights: Lucerne, scenic Alpine rail journey, mountain views.
+Includes: 4 nights midrange lodging, daily breakfast, specified rail tickets,
+one guided walking tour, local transport described in itinerary.
+
+Japan City & Culture - 9 days / 8 nights - $2,800 per person, based on two sharing.
+Highlights: Tokyo neighborhoods, Kyoto heritage sites, food market visit.
+Includes: 8 nights midrange lodging, daily breakfast, planned intercity train
+transfer, two guided cultural activities, airport arrival transfer.
+This is an independent travel package, not a scheduled group tour.
+
+PACKAGE POLICIES
+All amounts are fictional indicative USD prices per person assuming two travelers
+share a room. Prices are NOT real-time quotes or guarantees. International flights,
+visas, travel insurance, personal spending, and unlisted meals or experiences are
+excluded from every package. Actual travel dates, live availability, exact hotels,
+departure airports, payment schedules, cancellation terms, child rates, room upgrades,
+and accessible-travel arrangements are NOT confirmed in this simulation.
+Visitors may request a custom itinerary; a consultation request is not a booking.
+Do not promise that the agency can arrange any unlisted service without team follow-up.
+For visa or entry requirements, refer travelers to official government sources:
+Aria has no verified current immigration/visa tools.
+
+INQUIRIES AND CONTACT
+To express interest, clients can voluntarily provide their name, email, and trip
+notes. Aria logs this as a lead using record_customer_interest(email, name, message).
+The agent does NOT take payments, reserve seats, or confirm trips.
+For questions the business materials cannot answer, Aria must say so and log the
+exact question using record_feedback(question). For suggestions or complaints,
+Aria can log feedback with the same tool.
+Business contact: contact@jr-web-lb.com. The agency is a classroom demonstration:
+no real bookings are made. There is no real office or telephone number.
+Data is stored locally for classroom review and should not be committed to Git.
+
+FAQ
+Q: Can you book a package in the chat?
+A: No. Aria collects inquiries only. Booking is not supported.
+Q: Is airfare included?
+A: No. International flights are excluded from all listed packages.
+Q: Do you provide visa advice?
+A: No. Check official destination-government sources for current requirements.
+Q: Can you plan a honeymoon?
+A: Yes, customized honeymoon itinerary consultations are part of the service.
+Q: Are group departures to Japan planned for next year?
+A: No confirmed group-departure announcements are supplied; do not invent them.
+Q: Can I change an itinerary?
+A: You can request a custom plan via a consultation; changes are not guaranteed.
